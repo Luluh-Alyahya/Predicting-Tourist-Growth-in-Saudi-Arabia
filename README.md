@@ -18,6 +18,8 @@
   <img src="https://github.com/user-attachments/assets/48fea56e-2b84-4363-9dc4-6b4f72ef4077" width="45%" />
 </p>
 
+##### English dominated most review categories. Cultural Heritage sites showed more consistent positivity, especially in AlUla and Dhahran. Modern Attractions had more reviews overall but also more negative ones, indicating mixed visitor experiences.
+
 -------
 
 #### [Predicting Tourist Spending](Notebooks/Predicting%20Spending%20Based%20on%20Length%20of%20Stay%20and%20Other%20Attributes/)
@@ -45,9 +47,9 @@
 #### [Cultural Heritage vs. Modern Attractions – Sentiment Analysis](Notebooks/Cultural%20Heritage%20and%20Modern%20Attractions%20Comparative%20Analysis%20of%20Tourist%20Reviews%20in%20Saudi%20Arabia/)
 ##### It's to compare tourist satisfaction between cultural heritage sites and modern attractions using sentiment polarity.
 ##### sentiment polarity was analyzed using TextBlob:
-###### - Cultural Heritage: Average polarity = 0.35
-###### - Modern Attractions: Average polarity = 0.23
-###### Cultural Heritage sites showed more positive and consistent sentiment, reflecting higher tourist satisfaction without applying predictive models.
+##### - Cultural Heritage: Average polarity = 0.35
+##### - Modern Attractions: Average polarity = 0.23
+##### Cultural Heritage sites showed more positive and consistent sentiment, reflecting higher tourist satisfaction without applying predictive models.
 
 -------
 
@@ -76,7 +78,13 @@
 ##### Riyadh: Modern Attractions received higher sentiment scores than cultural ones.
 ##### Jeddah: Cultural Heritage scored the highest sentiment-wise across all cities.
 ##### AlUla: Only Cultural Heritage reviewed — results showed strong satisfaction.
+##### Neom:  Only Modern Attractions are reviewed, with a lower sentiment score compared to other cities, suggesting mixed feedback or limited reviews for modern attractions in Neom. 
+##### Dhahran:  Only Cultural Heritage is present and scores well, indicating tourist satisfaction with its cultural offerings.
+
+
+![Screenshot (631)](https://github.com/user-attachments/assets/040ef1ae-c12a-4a3b-aba5-2c125328a2c4)
 #### These results suggest that cities with preserved heritage receive more favorable sentiment, which could influence future tourism campaigns.
+
 
  ---------------------
 
