@@ -54,11 +54,8 @@
 -------
 
 #### [The Role of Language in Tourist Reviews](Notebooks/The%20Role%20of%20Language%20in%20Tourist-%20Google%20Maps%20Reviews/)
-##### It's to analyze how the language of tourist reviews (Arabic vs. English) influences expressed sentiment and satisfaction.
-##### Sentiment was evaluated using pretrained BERT models:
-###### 1- asafaya/bert-base-arabic (for Arabic)
-###### 2- nlptown/bert-base-multilingual-uncased-sentiment (for English)
-###### Each review was processed based on its detected language. While no accuracy-based comparison between models was done, the BERT pipelines effectively revealed sentiment differences between local and international tourists.
+##### This analysis explores how the language of tourist reviews—Arabic versus English—affects the expression of sentiment and overall satisfaction. Sentiment analysis was performed using pretrained BERT models suited for each language: one for Arabic and another for English. Reviews were first classified by language, then analyzed accordingly. While the models weren’t compared for accuracy, the results clearly showed how language shapes how tourists, whether local or international, express their experiences.
+
 
  ---------------------
 
