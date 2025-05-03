@@ -20,7 +20,7 @@
 
 -------
 
-#### [Predicting Tourist Spending](Notebooks/Predicting Spending Based on Length of Stay and Other Attributes)
+#### [Predicting Tourist Spending](Notebooks/Predicting%20Spending%20Based%20on%20Length%20of%20Stay%20and%20Other%20Attributes.ipynb)
 ##### It's to predict tourist spending based on features such as purpose of visit, average length of stay, and number of tourists.
 ###### Three models were evaluated:
 ##### 1- Linear Regression
