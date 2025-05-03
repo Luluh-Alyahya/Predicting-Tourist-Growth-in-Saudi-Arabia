@@ -58,12 +58,11 @@
 
 
 ### Future Work
-#### To build upon the current results and create a more comprehensive tourism analysis framework, several future directions are proposed:
-##### Multilingual Sentiment Analysis: Extend the model to handle reviews in Arabic to capture a broader spectrum of local feedback.
+#### In order to scale this work and deepen its impact, the following future directions are identified as essential improvements:
 ##### Aspect-Based Sentiment Analysis: Identify specific topics within reviews (e.g., service, price, cleanliness) to generate more targeted improvement recommendations.
 ##### Advanced NLP Models: Apply transformer-based models like BERT or RoBERTa for higher classification accuracy and context-aware sentiment detection.
 ##### Integration with Real-Time Feedback: Develop a dashboard that ingests live reviews to provide continuous monitoring and alerting for tourism stakeholders.
 #### City-Level Trend Analysis: Incorporate temporal and geographic trends to understand how sentiment evolves across different cities and seasons.
 
-#### These enhancements will transform the system into a powerful decision-support tool for tourism stakeholders, enabling data-driven improvements in planning, service delivery, and overall visitor satisfaction throughout the Kingdom.
+#### These extensions would enable the research to offer more actionable insights for policymakers and stakeholders involved in tourism planning and development.
 
