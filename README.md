@@ -1,10 +1,8 @@
 # Predicting-Tourist-Growth-in-Saudi-Arabia
 ## Overview
 #### This project aims to analyze tourist reviews across various cities in Saudi Arabia to evaluate public sentiment toward cultural heritage and modern attractions. By applying data analysis and sentiment modeling techniques, we extracted key insights regarding visitor satisfaction, common complaints, and performance differences between attraction types and locations. The goal is to provide data-driven recommendations to enhance tourism experiences and support cultural promotion strategies.
-\n
-\n
-\n
 
+ ---------------------
 
 ### Data Analysis
 #### We started by defining the categories of attractions (Cultural and Modern) and analyzing the sentiment of reviews associated with them. A sentiment distribution chart provided visual insight into tourist feedback volume and tone.
