@@ -17,6 +17,7 @@
   <img src="https://github.com/user-attachments/assets/48fea56e-2b84-4363-9dc4-6b4f72ef4077" width="45%" />
 </p>
 
+ ---------------------
 
 ### Modeling
 #### In order to classify tourist reviews into positive and negative sentiments, we built a supervised machine learning pipeline using multiple models and evaluated their performance. The goal was to determine which model could best interpret public perception of Cultural Heritage and Modern Attractions across Saudi cities.
@@ -25,6 +26,8 @@
 ##### Random Forest outperformed all other models with an accuracy of 91%, making it the final model of choice for classification.
 ##### Logistic Regression achieved 87% accuracy, offering a more explainable decision boundary but slightly less predictive power.
 ##### SVM yielded around 85% accuracy, and while effective, its complexity was not justified over Random Forest.
+
+ ---------------------
 
 ### Testing and Improvements
 
@@ -35,6 +38,8 @@
 #### Operational Weaknesses: Staff behavior and customer service were frequently cited, with phrases like “very rude staff” appearing in multiple reviews.
 #### Ambiance Without Substance: Some reviews acknowledged the attractiveness of the location but followed with “BUT” statements indicating that logistics, food, or service fell short. This mixed sentiment revealed an opportunity for improvement.
 
+ ---------------------
+
 ### Key Improvements
 #### We conducted a city-wise performance analysis using the model’s output to see how sentiments vary across regions:
 ##### Riyadh: Modern Attractions received higher sentiment scores than cultural ones.
@@ -42,9 +47,15 @@
 ##### AlUla: Only Cultural Heritage reviewed — results showed strong satisfaction.
 #### These results suggest that cities with preserved heritage receive more favorable sentiment, which could influence future tourism campaigns.
 
+ ---------------------
+
+
 ### Conclusion
 #### This project successfully applied sentiment analysis techniques to evaluate tourist perceptions of Cultural Heritage and Modern Attractions across several cities in Saudi Arabia. Through the use of machine learning models—particularly Random Forest, which achieved the highest accuracy of 91%—we classified reviews with high confidence and extracted key insights about tourist satisfaction.
 #### These findings emphasize the importance of not only increasing the number of tourist destinations but also ensuring high-quality visitor experiences, particularly in modern developments.
+
+ ---------------------
+
 
 ### Future Work
 #### To build upon the current results and create a more comprehensive tourism analysis framework, several future directions are proposed:
