@@ -20,7 +20,7 @@
 
 -------
 
-#### [Predicting Tourist Spending](Notebooks/Predicting Spending Based on Length of Stay and Other Attributes.ipynb)
+#### [Predicting Tourist Spending](Notebooks/Predicting Spending Based on Length of Stay and Other Attributes)
 ##### It's to predict tourist spending based on features such as purpose of visit, average length of stay, and number of tourists.
 ###### Three models were evaluated:
 ##### 1- Linear Regression
@@ -32,7 +32,7 @@
 -------
 
 #### Impact of Tourist Volume on Service Quality
-#####It's to predict perceived service quality across tourist sites using features such as city and attraction category.
+##### It's to predict perceived service quality across tourist sites using features such as city and attraction category.
 ##### Three models were evaluated:
 ###### 1- Linear Regression
 ###### 2- Decision Tree
