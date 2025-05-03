@@ -4,7 +4,8 @@
 
  ---------------------
 
-### Data Analysis
+
+### Modeling & Analysis
 #### We started by defining the categories of attractions (Cultural and Modern) and analyzing the sentiment of reviews associated with them. A sentiment distribution chart provided visual insight into tourist feedback volume and tone.
 <p align="center">
   <img src="https://github.com/user-attachments/assets/d202f108-1b97-4bd4-8301-f315240eaade" width="45%" />
@@ -17,15 +18,45 @@
   <img src="https://github.com/user-attachments/assets/48fea56e-2b84-4363-9dc4-6b4f72ef4077" width="45%" />
 </p>
 
- ---------------------
+-------
 
-### Modeling
-#### In order to classify tourist reviews into positive and negative sentiments, we built a supervised machine learning pipeline using multiple models and evaluated their performance. The goal was to determine which model could best interpret public perception of Cultural Heritage and Modern Attractions across Saudi cities.
+#### Predicting Tourist Spending
+##### It's to predict tourist spending based on features such as purpose of visit, average length of stay, and number of tourists.
+###### Three models were evaluated:
+##### 1- Linear Regression
+##### 2- Random Forest
+##### 3- Gradient Boosting
 
-#### Three different models were implemented:
-##### Random Forest outperformed all other models with an accuracy of 91%, making it the final model of choice for classification.
-##### Logistic Regression achieved 87% accuracy, offering a more explainable decision boundary but slightly less predictive power.
-##### SVM yielded around 85% accuracy, and while effective, its complexity was not justified over Random Forest.
+##### Gradient Boosting achieved the lowest MAE and RMSE, outperforming simpler models by better capturing complex, non-linear spending patterns. This model is recommended for forecasting tourist expenditure.
+
+-------
+
+#### Impact of Tourist Volume on Service Quality
+#####It's to predict perceived service quality across tourist sites using features such as city and attraction category.
+##### Three models were evaluated:
+###### 1- Linear Regression
+###### 2- Decision Tree
+###### 3- Random Forest
+
+##### Random Forest achieved the highest R-squared and lowest MSE after hyperparameter tuning, showing superior performance in capturing non-linear relationships between tourist volume and service quality.
+
+-------
+
+#### Cultural Heritage vs. Modern Attractions – Sentiment Analysis
+##### It's to compare tourist satisfaction between cultural heritage sites and modern attractions using sentiment polarity.
+##### sentiment polarity was analyzed using TextBlob:
+###### - Cultural Heritage: Average polarity = 0.35
+###### - Modern Attractions: Average polarity = 0.23
+###### Cultural Heritage sites showed more positive and consistent sentiment, reflecting higher tourist satisfaction without applying predictive models.
+
+-------
+
+#### The Role of Language in Tourist Reviews
+##### It's to analyze how the language of tourist reviews (Arabic vs. English) influences expressed sentiment and satisfaction.
+##### Sentiment was evaluated using pretrained BERT models:
+###### 1- asafaya/bert-base-arabic (for Arabic)
+###### 2- nlptown/bert-base-multilingual-uncased-sentiment (for English)
+###### Each review was processed based on its detected language. While no accuracy-based comparison between models was done, the BERT pipelines effectively revealed sentiment differences between local and international tourists.
 
  ---------------------
 
