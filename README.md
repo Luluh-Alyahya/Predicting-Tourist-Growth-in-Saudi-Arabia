@@ -22,7 +22,7 @@
 
 #### [Predicting Tourist Spending](Notebooks/Predicting%20Spending%20Based%20on%20Length%20of%20Stay%20and%20Other%20Attributes/)
 ##### It's to predict tourist spending based on features such as purpose of visit, average length of stay, and number of tourists.
-###### Three models were evaluated:
+##### Three models were evaluated:
 ##### 1- Linear Regression
 ##### 2- Random Forest
 ##### 3- Gradient Boosting
@@ -34,9 +34,9 @@
 #### [Impact of Tourist Volume on Service Quality](Notebooks/Impact%20of%20Tourist%20Volume/)
 ##### It's to predict perceived service quality across tourist sites using features such as city and attraction category.
 ##### Three models were evaluated:
-###### 1- Linear Regression
-###### 2- Decision Tree
-###### 3- Random Forest
+##### 1- Linear Regression
+##### 2- Decision Tree
+##### 3- Random Forest
 
 ##### Random Forest achieved the highest R-squared and lowest MSE after hyperparameter tuning, showing superior performance in capturing non-linear relationships between tourist volume and service quality.
 
