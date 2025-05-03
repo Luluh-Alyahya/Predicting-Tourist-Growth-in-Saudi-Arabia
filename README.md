@@ -31,7 +31,7 @@
 
 -------
 
-#### Impact of Tourist Volume on Service Quality
+#### [Impact of Tourist Volume on Service Quality](Notebooks/Impact%20of%20Tourist%20Volume/)
 ##### It's to predict perceived service quality across tourist sites using features such as city and attraction category.
 ##### Three models were evaluated:
 ###### 1- Linear Regression
@@ -42,7 +42,7 @@
 
 -------
 
-#### Cultural Heritage vs. Modern Attractions – Sentiment Analysis
+#### [Cultural Heritage vs. Modern Attractions – Sentiment Analysis](Notebooks/Cultural%20Heritage%20and%20Modern%20Attractions%20Comparative%20Analysis%20of%20Tourist%20Reviews%20in%20Saudi%20Arabia/)
 ##### It's to compare tourist satisfaction between cultural heritage sites and modern attractions using sentiment polarity.
 ##### sentiment polarity was analyzed using TextBlob:
 ###### - Cultural Heritage: Average polarity = 0.35
@@ -51,7 +51,7 @@
 
 -------
 
-#### The Role of Language in Tourist Reviews
+#### [The Role of Language in Tourist Reviews](Notebooks/The%20Role%20of%20Language%20in%20Tourist-%20Google%20Maps%20Reviews/)
 ##### It's to analyze how the language of tourist reviews (Arabic vs. English) influences expressed sentiment and satisfaction.
 ##### Sentiment was evaluated using pretrained BERT models:
 ###### 1- asafaya/bert-base-arabic (for Arabic)
